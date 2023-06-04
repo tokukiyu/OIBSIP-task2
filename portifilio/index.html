@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/man.png" type="image/x-icon" />
+    <title>hello I am Tokuma</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <style></style>
+  <body>
+    <div class="upper-part">
+      <div class="nav">
+        <nav>
+          <div class="logo">
+            <a href="#"> <span class="logify">T</span> Toku</a>
+          </div>
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portifilio.html">Portifilio</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-right">
+          <ul>
+            <li>about me</li>
+            <li>share</li>
+            <li>
+              <a href="mailto:example@example.com"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="shape">
+        <img src="/images/techi.png" alt="" />
+        <div class="home-page">
+          <div class="typewriter">
+            <h1>Hello this is Tokuma</h1>
+            <h1 id="second-h1" class="hidden" style="animation-delay: 3.5s">
+              I'm Sofware Engineer
+            </h1>
+          </div>
+        </div>
+        <div class="profile-pic">
+          <img src="images/man.png" alt="" />
+        </div>
+        <div class="right-part-shape">
+          <img src="/images/tech2.png" alt="" />
+        </div>
+        <div class="lower-left-part-shape"></div>
+        <div class="lower-left-part-shape-cover"></div>
+      </div>
+    </div>
+    <div class="detail-part">
+      <div class="detail-part-upper">
+        <div class="detail-part-left">
+          <img src="/images/man.png" alt="" />
+        </div>
+        <div class="detail-part-right">
+          <h4>Let me introduce my self</h4>
+          <h1>About Me</h1>
+          <h3>Story of my hand Work</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo at ex
+            id, architecto sint maxime voluptates non modi sed officiis.
+            Laudantium nisi fugiat a quasi omnis earum inventore! Doloribus,
+            commodi!
+          </p>
+          <h3>contact</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            praesentium fugiat magni voluptates, corporis maxime id, optio
+            voluptas ut,
+          </p>
+          <button onclick="alert('clicked')" class="btn btn-primary">
+            hire me
+          </button>
+          <button
+            onclick="window.open('cv advanc - freelance.docx')"
+            class="btn btn-secondary"
+          >
+            Download CV
+          </button>
+        </div>
+      </div>
+      <div class="detail-part-lower">
+        <h4>what i will do for you</h4>
+        <div class="cards">
+          <div class="card">
+            <i class="fas fa-code"></i>
+            <h1>Web develoment</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Obcaecati asperiores earum, officia veritatis repudiandae saepe
+              rerum maiores corrupti neque quia aspernatur est odio atque nisi
+              laborum officiis sed ipsum itaque?
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-mobile-alt"></i>
+            <h1>Mobile app development</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+              est assumenda eum porro consectetur unde sunt possimus. Officia
+              odit libero, quod tempora, similique sit voluptas quidem nisi quam
+              numquam in!
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-palette"></i>
+            <h1>UX & UI design</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel nisi
+              asperiores exercitationem voluptatum libero hic nam expedita quia
+              possimus, fuga voluptate placeat consequatur, alias nobis
+              assumenda ullam? Sint, porro repellendus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footerShape">
+        <div class="footer">
+          <div class="left-part">
+            <form action="">
+              <h3>Drop me a line</h3>
+              <input type="text" placeholder="your name" />
+              <input type="email" placeholder="your email" />
+              <input type="text" placeholder="your subject" />
+              <input type="text" placeholder="your message" />
+              <button class="btn btn-primary">Send Message</button>
+            </form>
+            <p>copywrite</p>
+          </div>
+          <div class="right-part">
+            <div class="footerIfon"></div>
+            <div class="footerIfon">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos nobis harum, magni labore nemo, eligendi quos
+                impedit error iure possimus, officia similique repudiandae! Qui
+                assumenda dicta culpa delectus. Omnis, aliquid.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cover"></div>
+        <div class="upperShape-left"></div>
+        <div class="upperShape-left-cover"></div>
+        <div class="upperShape-left-cover-after"></div>
+        <div class="upperShape-right"></div>
+      </div>
+    </footer>
+    <script>
+      //visible dots
+      const page = document.querySelector(".detail-part");
+      function Dot(page) {
+      
+        const visibleDot = document.createElement("div");
+        const div = document.createElement("div");
+        visibleDot.setAttribute("class", "Dots");
+
+        for (var i = 0; i <= 8; i++) {
+          let dot = document.createElement("div");
+          dot.setAttribute("class", "dot");
+          dot.textContent = ".";
+          div.appendChild(dot);
+        }
+        visibleDot.appendChild(div);
+        page.appendChild(visibleDot);
+      }
+      Dot(page);
+      //TYPER
+      setTimeout(function () {
+        document.getElementById("second-h1").classList.remove("hidden");
+      }, 3500);
+    </script>
+  </body>
+</html>
